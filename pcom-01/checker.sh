@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir -p sol
-unzip archive.zip -d sol
+mkdir -p src
+unzip archive.zip -d src
 unzip -qq -o artifact.zip
 ./check.sh
 exit $?
